@@ -2,9 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import places from "../../Assets/Projects/1.png";
+import jitter from "../../Assets/Projects/2.png";
+import weather from "../../Assets/Projects/3.png";
 
 function Projects() {
   return (
@@ -20,7 +20,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={places}
               isBlog={false}
               title="MyPlaces App"
               description="React-based backend Application.
@@ -36,7 +36,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={jitter}
               isBlog={false}
               title="Jitter -A Twitter Lookalike"
               description="A Django-driven Social Media App
@@ -54,7 +54,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={weather}
               isBlog={false}
               title="API-Powered Weather App"
               description="API-based Weather App for real-time weather
