@@ -7,7 +7,7 @@
 
 <br/>
 
-## TL;DR
+## About
 
 My personal portfolio, which features some of my GitHub projects as well as my resume and technical skills.
 
